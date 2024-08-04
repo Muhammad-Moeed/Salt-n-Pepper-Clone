@@ -50,14 +50,14 @@ header {
 
 /* logo */
 
- .logo img {
+.logo img {
     width: 165px;
     height: 75px;
-} 
+}
 
 /* menu */
 
- .menu ul li {
+.menu ul li {
     display: inline-block;
     list-style: none;
     text-decoration: none;
@@ -74,16 +74,17 @@ header {
 .menu ul {
     display: flex;
     gap: 40px;
-} */
+}
 
- /* button  */
+*/
+/* button  */
 
- .btn {
+.btn {
     display: flex;
     gap: 10px;
 }
 
-.btn .btn-1{
+.btn .btn-1 {
     border-radius: 30px;
     padding: 17px 25px;
     cursor: pointer;
@@ -91,9 +92,10 @@ header {
     font-size: 14px;
     border: 1px solid #fff;
     background-color: black;
-    
-    
+
+
 }
+
 .btn .btn-2 {
     border-radius: 30px;
     padding: 10px 20px;
@@ -113,11 +115,11 @@ header {
     padding: 10px;
     border-radius: 50%;
     margin-left: 10px;
-} 
+}
 
 /*************** banner *****************/
 
- .banner {
+.banner {
     background-image: url(assets/images/banner.jpg);
     width: 100%;
     height: 410px;
@@ -125,7 +127,7 @@ header {
     background-position: center;
     background-size: cover;
     cursor: pointer;
-} 
+}
 
 
 /**********Content-1 Welcome to Salt'n Pepper **************/
@@ -138,7 +140,7 @@ header {
     color: #fff;
     font-family: menu-font;
     text-align: center;
-    
+
 }
 
 .intro {
@@ -167,7 +169,7 @@ span {
 .brand {
     display: flex;
     justify-content: center;
-    flex-wrap: wrap;
+
 }
 
 .brand-pic {
@@ -189,7 +191,7 @@ span {
     justify-content: center;
     margin: 15px;
     gap: 60px;
-    flex-wrap: wrap;
+
 }
 
 .brand-btn button {
@@ -265,7 +267,7 @@ span {
     display: flex;
     justify-content: center;
     margin-top: 30px;
-    flex-wrap: wrap;
+
 }
 
 .description-islamabad {
@@ -314,7 +316,7 @@ span {
     justify-content: flex-start;
     cursor: pointer;
     margin-top: 20px;
-    flex-wrap: wrap;
+
 }
 
 .islamabad-btn button {
@@ -329,7 +331,7 @@ span {
     font-family: fa-light-300;
     font-size: 15px;
     justify-content: flex-start;
-    flex-wrap: wrap;
+
 }
 
 .islamabad-btn button i {
@@ -392,7 +394,7 @@ span {
     justify-content: flex-start;
     cursor: pointer;
     margin-top: 20px;
-    flex-wrap: wrap;
+
 }
 
 .faisalabad-btn button {
@@ -424,7 +426,7 @@ span {
     justify-content: center;
     margin-top: 60px;
     margin-right: 10px;
-    flex-wrap: wrap;
+
 }
 
 .description-bahawalpur {
@@ -472,7 +474,7 @@ span {
     justify-content: flex-start;
     cursor: pointer;
     margin-top: 20px;
-    flex-wrap: wrap;
+
 }
 
 .bahawalpur-btn button {
@@ -537,7 +539,7 @@ span {
     display: flex;
     margin-top: 30px;
     margin: 30px;
-    flex-wrap: wrap;
+
 
 }
 
@@ -620,7 +622,7 @@ span {
     cursor: pointer;
     position: relative;
     z-index: 2;
-    flex-wrap: wrap;
+
 }
 
 .address {
@@ -667,7 +669,7 @@ span {
 .village-row {
     display: flex;
     margin-top: 30px;
-    flex-wrap: wrap;
+
 
 }
 
@@ -770,7 +772,7 @@ span {
     display: flex;
     justify-content: center;
     margin-top: 5px;
-    flex-wrap: wrap;
+
 }
 
 .box {
@@ -821,7 +823,7 @@ span {
     display: flex;
     justify-content: center;
     margin-top: 26px;
-    flex-wrap: wrap;
+
 }
 
 .image-gallery img {
@@ -832,31 +834,36 @@ span {
 
 
 /******** Footer ***********/
-#footer{
+#footer {
     width: 100%;
     height: max-content;
     background-color: rgb(16, 15, 15);
     font-family: aperculight;
 }
-.footer-first-sec{
+
+.footer-first-sec {
     display: flex;
     color: #fff;
 }
-.introduction{
+
+.introduction {
     margin: 70px 0px 0px 20px;
 }
-.introduction img{
-width: 150px;
-cursor: pointer;
+
+.introduction img {
+    width: 150px;
+    cursor: pointer;
 }
-.introduction >p{
+
+.introduction>p {
     font-size: 14px;
     letter-spacing: 1px;
     line-height: 20px;
     margin-top: 12px;
     color: rgb(189, 189, 189);
 }
-.introduction span pre{
+
+.introduction span pre {
     font-size: 15px;
     letter-spacing: 1px;
     color: rgb(189, 189, 189);
@@ -864,88 +871,104 @@ cursor: pointer;
     margin-top: 20px;
 }
 
-.site-links{
+.site-links {
     width: 350px;
     margin: 70px 0px 0px 100px;
-    
+
 }
-.site-links > h3 {
-    
+
+.site-links>h3 {
+
     font-family: fa-light-300;
 }
-.site-links ul li{
+
+.site-links ul li {
     list-style: none;
     margin-top: 20px;
 }
+
 .site-links ul li a {
     text-decoration: none;
     color: rgb(189, 189, 189);
     font-family: aperculight;
 }
-.contact{
+
+.contact {
     width: 350px;
     margin: 70px 0px 30px 100px;
 }
-.contact > h3{
+
+.contact>h3 {
     font-family: fa-light-300;
 }
-.contact h2{    
+
+.contact h2 {
     font-size: 13px;
     margin-top: 20px;
 }
-.contact p{
+
+.contact p {
     font-family: aperculight;
     color: rgb(189, 189, 189);
     font-size: 14px;
     margin-top: 15px;
 }
-.links{
+
+.links {
     width: 350px;
     margin: 70px 100px 0px 100px;
 }
-.links > h3{
+
+.links>h3 {
     font-family: fa-light-300;
 }
 
-.links a i{
+.links a i {
     background-color: red;
     color: #fff;
     padding: 10px;
     border-radius: 100%;
     margin-top: 20px;
 }
+
 .links img {
     margin-top: 20px;
 }
-.container{
+
+.container {
     display: flex;
-    width:100% ;
+    width: 100%;
     color: rgb(189, 189, 189);
     border-top: 2px solid #2a2929;
-    flex-wrap: wrap;
     
+
 }
-.container > p {
+
+.container>p {
     font-size: 13px;
     align-items: center;
     margin-top: 15px;
     margin-bottom: 10px;
-    
+
 }
-.two{
+
+.two {
     margin-left: 80px;
 }
-.restaurant-name{
+
+.restaurant-name {
     font-family: sans-serif;
     font-size: 13px;
     word-spacing: 4px;
     margin-left: 10px;
 }
+
 .container a {
     text-decoration: none;
     color: rgb(189, 189, 189);
 }
+
 .powered-by {
     margin-left: 450px;
-    
+
 }
